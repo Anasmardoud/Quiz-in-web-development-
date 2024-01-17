@@ -1,0 +1,83 @@
+.flex-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.text-box{
+  width: 500px;
+  border: none;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-left: 20px;
+  max-width: 800px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+button {
+  background-color:purple;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  border-radius: 19px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 30px;
+}
+.chat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color:grey ;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 600px;
+   
+}
+.img{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 13px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+.flex-chat{
+    width: 200px;
+    flex: 1;
+}
+.box{
+    background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 7px;
+}

@@ -1,0 +1,41 @@
+.a{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: auto;
+}
+.b{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin-top:10px;
+}
+.c{
+    border: 1px solid black;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.d{
+    background-color: black;
+    display: inline-block;
+    margin-left: 5px;
+  
+}
+.d_1{
+    color: white;
+   padding-left: 20px;
+   font-size: 25px;
+  
+}
+.d_2{
+    color: gray;
+    padding-right: 40px;
+    padding-bottom: 14px;
+}

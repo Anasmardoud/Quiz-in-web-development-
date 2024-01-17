@@ -1,0 +1,30 @@
+.flex1{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.box{
+    background-color: yellow;
+    width: 200px;
+}
+.flex2{
+    background-color: pink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.flex3{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+}
+.flex4{
+    font-family: Arial;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}

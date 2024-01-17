@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The get element by id example</h2>
+<button onclick="changeText();">Click me!</button>
+<span id="output">replace me</span>
+<input id="textbox" type="text" />
+<script>
+function changeText() {
+var span = document.getElementById("output");
+var textBox = document.getElementById("textbox");
+textbox.style.color = "red";
+textbox.style.fontSize = "13pt";
+textbox.style.fontFamily = "Comic Sans MS";
+}
+</script>
+</body>
+</html>

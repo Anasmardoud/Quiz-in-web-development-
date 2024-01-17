@@ -1,0 +1,215 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .profile {
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 1s;
+    display: inline-block;
+    
+  }
+  .profile:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.959);
+  }
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+  .mutual-friends-row {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .mutual-friend-picture {
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  
+  .mutual-friends {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(100, 100, 100);
+  }
+  .add-friend-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  .add-friend-button:hover{
+    background-color: rgb(242, 232, 215);
+    color: rgb(74, 164, 224);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.30);
+  }
+  .profile_1 {
+    width: 200px;
+    transition: box-shadow 1s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .profile_1:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.866);
+  }
+  .profile-picture_1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .name_1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .mutual-friends_1 {
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .add-friend-button_1 {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  .add-friend-button_1:hover{
+    background-color: wheat;
+    color: rgb(74, 164, 224);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.30);
+  }
+  .profile_2 {
+    width: 200px;
+    transition: box-shadow 1s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .profile_2:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.866);
+  }
+  .profile-picture_2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .name_2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .mutual-friends_2 {
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .add-friend-button_2 {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  .add-friend-button_2:hover{
+    background-color: rgb(239, 225, 200);
+    color: rgb(74, 164, 224);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.30);
+  }
+  .chat{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 450px;
+  border-radius: 6px;
+  margin-top: 10px;
+  }
+  .chat_1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .chat_2{
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 4px;
+    color: gray;
+  }
+  .chat_3{
+    background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  }
+  .chat_3:hover{
+    background-color: wheat;
+    color: rgb(74, 164, 224);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.30);
+  }
+ 
